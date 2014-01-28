@@ -32,8 +32,8 @@
     var paddingLeft = parseInt($container.css('padding-left'));
     var paddingRight = parseInt($container.css('padding-right'));
 
-    var diffW = containerLeft + paddingLeft - scrollLeft + parseInt($container.css('border-left'));
-    var diffH = containerTop + paddingTop - scrollTop + parseInt($container.css('border-top'));
+    var diffW = containerLeft + paddingLeft - scrollLeft + parseInt($container.css('border-left-width'));
+    var diffH = containerTop + paddingTop - scrollTop + parseInt($container.css('border-top-width'));
     if (diffW <= targetWidth + paddingRight - containerWidth || diffH <= targetHeight + paddingBottom - containerHeight) {
       $target.css({
         position: 'absolute',
