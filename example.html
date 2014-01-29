@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>jQuery Sticky</title>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
   <script type="text/javascript" src="jquery.sticky.js"></script>
   <script>
     $(function(){
@@ -16,8 +16,16 @@
       width: 2000px;
       height: 3000px;
     }
+    .links {
+      margin: 20px;
+    }
+    .links a {
+      margin-right: 20px;
+    }
     .container {
       box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
       float: left;
       width: 300px;
       height: 300px;
@@ -44,6 +52,11 @@
   </style>
 </head>
 <body>
+  <div class="links">
+    <p>jQuery Sticky is a jQuery plugin that gives you the ability to make any element on your page stay sticky in the containers.</p>
+    <a href="https://github.com/dtaniwaki/jquery-sticky">GitHub</a>
+    <a href="https://github.com/dtaniwaki/jquery-sticky/archive/master.zip">Download</a>
+  </div>
   <div class="container">
     <div id="sticky" class="sticky">
       <p>Sticky</p>
