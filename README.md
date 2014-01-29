@@ -2,6 +2,8 @@
 
 jQuery Sticky is a jQuery plugin that gives you the ability to make any element on your page stay sticky in the containers.
 
+[View Demo](http://www.dtaniwaki.com/jquery-sticky/example.html)
+
 ## Usage
 
 ```html
